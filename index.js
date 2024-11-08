@@ -1,6 +1,6 @@
 
 import {runLLM} from './src/llm.js'
-import { getMessages } from './src/memory.js';
+import { addMessages, getMessages } from './src/memory.js';
 
 const userMessage = process.argv[2];
 
@@ -9,10 +9,12 @@ if(!userMessage){
     process.exit(1);
 }
 
-
+await addMessages([{role:"user", content:userMessage}])
 const messages = await getMessages();
 const response = await runLLM({
-    messages: [...messages,{role: 'user', content: userMessage}]
+    messages: [...messages]
 })
+
+await addMessages([{role:"assistant", content:response}])
 
 console.log(response);

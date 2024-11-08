@@ -11,6 +11,6 @@ export const runLLM = async ({
         temperature
     });
 
-    return response.choices[0].message;
+    return response.choices[0].message.content;
 }
 
