@@ -1,6 +1,6 @@
 
-import {runLLM} from './src/llm.js'
-import { addMessages, getMessages } from './src/memory.js';
+import { z } from 'zod';
+import { runAgent } from './src/agent.js';
 
 const userMessage = process.argv[2];
 
@@ -9,12 +9,13 @@ if(!userMessage){
     process.exit(1);
 }
 
-await addMessages([{role:"user", content:userMessage}])
-const messages = await getMessages();
-const response = await runLLM({
-    messages: [...messages]
-})
+const weatherTools = {
+    name: "get_weather",
+    description: "use this to get weather",
+    parameters: z.object({})
+}
 
-await addMessages([{role:"assistant", content:response}])
+const response = await runAgent({userMessage, tools:[weatherTools]})
+
 
 console.log(response);

@@ -2,35 +2,29 @@
   "messages": [
     {
       "role": "user",
-      "content": "My name is Saket"
+      "content": "What's the weather",
+      "id": "b93573ab-93ef-4dbd-be66-14b51b3949de",
+      "createdAt": "2024-11-08T23:58:03.599Z"
     },
     {
       "role": "assistant",
-      "content": "Hi Saket"
-    },
-    {
-      "role": "user",
-      "content": "Hello assistant how are you?",
-      "id": "5846b84a-f833-48ac-8e3a-b8e0e7ca5daa",
-      "createdAt": "2024-11-08T08:57:09.310Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Hello, Saket! I'm just a program, so I don't have feelings, but I'm here and ready to help you. How can I assist you today?",
-      "id": "943dbda1-b068-4983-adf5-4c99beaf10d9",
-      "createdAt": "2024-11-08T08:57:11.331Z"
-    },
-    {
-      "role": "user",
-      "content": "What is my name",
-      "id": "ecf869ac-964b-4e6b-b181-048d04acdf09",
-      "createdAt": "2024-11-08T08:57:19.838Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Your name is Saket. How can I assist you further?",
-      "id": "cc61a13c-01ec-41d6-9154-7fc6ec6abfb2",
-      "createdAt": "2024-11-08T08:57:20.781Z"
+      "content": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_WYYJsD6evQgv1vzwh9eIIUju",
+            "type": "function",
+            "function": {
+              "name": "get_weather",
+              "arguments": "{}"
+            }
+          }
+        ],
+        "refusal": null
+      },
+      "id": "4b2df694-4d80-4efb-a3ef-da9ec2aca94e",
+      "createdAt": "2024-11-08T23:58:04.807Z"
     }
   ]
 }
