@@ -48,3 +48,14 @@ export const getMessages = async()=>{
         return []
     }
 }
+
+export const saveToolResponse = async (
+    toolCallId,
+    toolResponse
+) => {
+    return await addMessages([{
+        role: 'tool',
+        content: toolResponse,
+        tool_call_id: toolCallId
+    }])
+}
