@@ -2,29 +2,40 @@
   "messages": [
     {
       "role": "user",
-      "content": "What's the weather",
-      "id": "b93573ab-93ef-4dbd-be66-14b51b3949de",
-      "createdAt": "2024-11-08T23:58:03.599Z"
+      "content": "Can you tell me the weather",
+      "id": "4039067f-4ebb-4e79-a15c-253616a80602",
+      "createdAt": "2024-11-11T12:10:46.533Z"
     },
     {
       "role": "assistant",
-      "content": {
-        "role": "assistant",
-        "content": null,
-        "tool_calls": [
-          {
-            "id": "call_WYYJsD6evQgv1vzwh9eIIUju",
-            "type": "function",
-            "function": {
-              "name": "get_weather",
-              "arguments": "{}"
-            }
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_3hIaGy7cTTHOjMo34XvvONfs",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{}"
           }
-        ],
-        "refusal": null
-      },
-      "id": "4b2df694-4d80-4efb-a3ef-da9ec2aca94e",
-      "createdAt": "2024-11-08T23:58:04.807Z"
+        }
+      ],
+      "refusal": null,
+      "id": "885b193e-6a9d-4f33-9703-b070d7621dbc",
+      "createdAt": "2024-11-11T12:10:47.656Z"
+    },
+    {
+      "role": "tool",
+      "content": "Very cold, 17deg",
+      "tool_call_id": "call_3hIaGy7cTTHOjMo34XvvONfs",
+      "id": "a01a6f17-e3c0-4a7d-a672-94982d14a444",
+      "createdAt": "2024-11-11T12:10:47.658Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather is very cold, with a temperature of 17 degrees.",
+      "refusal": null,
+      "id": "646c348e-13ba-45b3-addf-94c04d7a2989",
+      "createdAt": "2024-11-11T12:10:48.432Z"
     }
   ]
 }

@@ -16,6 +16,3 @@ const weatherTools = {
 }
 
 const response = await runAgent({userMessage, tools:[weatherTools]})
-
-
-console.log(response);

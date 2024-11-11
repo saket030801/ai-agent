@@ -7,7 +7,7 @@ export const runTool = async (toolCall, userMessage) => {
     }
 
     switch (toolCall.function.name){
-        case 'weather':
+        case 'get_weather':
             return getWeather();
         
         default:
