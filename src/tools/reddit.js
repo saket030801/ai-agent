@@ -1,6 +1,6 @@
 import {z} from 'zod'
 
-const redditToolDefination = {
+export const redditToolDefination = {
     name: 'reddit',
     parameters: z.object({}).describe(
         'Use this tool to get the latest posts from reddit. It will return a JSON object with the title, link, subreddit, author, and upvotes of each post.'
@@ -8,7 +8,7 @@ const redditToolDefination = {
 }
 
 
-async function reddit({toolArgs, userMessage}){
+export async function reddit({toolArgs, userMessage}){
     const response = await fetch('https://www.reddit.com/r/aww/.json');
     const {data} = await response.json();
 
@@ -23,5 +23,4 @@ async function reddit({toolArgs, userMessage}){
     return JSON.stringify(relevantInfo, null, 2)
 }
 
-module.exports = {redditToolDefination, reddit}
 

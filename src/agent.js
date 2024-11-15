@@ -1,5 +1,4 @@
 import { runLLM } from "./llm.js";
-import { z } from "zod"; 
 import { addMessages, getMessages, saveToolResponse } from "./memory.js";
 import { logMessage, showLoader } from "./ui.js";
 import { runTool } from "./toolRunner.js";

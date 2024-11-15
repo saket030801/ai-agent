@@ -1,13 +1,14 @@
 
 import fetch from 'node-fetch'
+import { z } from 'zod'; 
 
-const dadJokeToolDefinition = {
+export const dadJokeToolDefinition = {
     name: 'dad_joke',
-    parameters: {}
+    parameters: z.object({})
 }
 
 
-async function dadJoke() {
+export async function dadJoke() {
     const res = await fetch('https://icanhazdadjoke.com/', {
         headers:{
             Accept: 'application/json'
@@ -19,4 +20,3 @@ async function dadJoke() {
     return data.joke;
 }
 
-module.exports = {dadJoke, dadJokeToolDefinition}

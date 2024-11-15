@@ -2,40 +2,64 @@
   "messages": [
     {
       "role": "user",
-      "content": "Can you tell me the weather",
-      "id": "4039067f-4ebb-4e79-a15c-253616a80602",
-      "createdAt": "2024-11-11T12:10:46.533Z"
+      "content": "make a meme image  based on a dad joke",
+      "id": "ef2a8186-10f4-4e30-af61-5d5dd5dc5c1a",
+      "createdAt": "2024-11-15T18:03:23.547Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_3hIaGy7cTTHOjMo34XvvONfs",
+          "id": "call_bG8VdPN1V8tCcTE4nCSFkuCL",
           "type": "function",
           "function": {
-            "name": "get_weather",
+            "name": "dad_joke",
             "arguments": "{}"
           }
         }
       ],
       "refusal": null,
-      "id": "885b193e-6a9d-4f33-9703-b070d7621dbc",
-      "createdAt": "2024-11-11T12:10:47.656Z"
+      "id": "03867e6f-a634-4e61-ad95-dc63c8b67cb5",
+      "createdAt": "2024-11-15T18:03:24.952Z"
     },
     {
       "role": "tool",
-      "content": "Very cold, 17deg",
-      "tool_call_id": "call_3hIaGy7cTTHOjMo34XvvONfs",
-      "id": "a01a6f17-e3c0-4a7d-a672-94982d14a444",
-      "createdAt": "2024-11-11T12:10:47.658Z"
+      "content": "I decided to sell my Hoover… well it was just collecting dust.",
+      "tool_call_id": "call_bG8VdPN1V8tCcTE4nCSFkuCL",
+      "id": "34fb7372-53fb-42f5-bda4-7629dcc2cb15",
+      "createdAt": "2024-11-15T18:03:26.400Z"
     },
     {
       "role": "assistant",
-      "content": "The weather is very cold, with a temperature of 17 degrees.",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_T7o55RWQwwIAr9A4Sy8oX3D7",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A humorous meme image featuring a cartoon character looking at a vacuum cleaner with a confused expression. The text at the top says, 'I decided to sell my Hoover...' and at the bottom, it says, 'Well, it was just collecting dust.' The background is a messy living room with dust bunnies.\"}"
+          }
+        }
+      ],
       "refusal": null,
-      "id": "646c348e-13ba-45b3-addf-94c04d7a2989",
-      "createdAt": "2024-11-11T12:10:48.432Z"
+      "id": "8fb320fe-9e33-4637-8f60-0600809ad250",
+      "createdAt": "2024-11-15T18:03:28.310Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-DhRyH23zGXq7WXzs6TYih5dA/user-NObsI7AB3qsTX9V1oxlaeJUf/img-RcG3Nxg6SwLHMcYM8KzzrRNj.png?st=2024-11-15T17%3A03%3A30Z&se=2024-11-15T19%3A03%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-11-15T17%3A56%3A56Z&ske=2024-11-16T17%3A56%3A56Z&sks=b&skv=2024-08-04&sig=e69nl/%2BcArEDqR0mNH8Yhykab3sXvA%2BDkRoZmETvMjQ%3D",
+      "tool_call_id": "call_T7o55RWQwwIAr9A4Sy8oX3D7",
+      "id": "03540d33-87d0-4d5a-8bfd-6c804f43481a",
+      "createdAt": "2024-11-15T18:03:42.396Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a meme image based on the dad joke:\n\n![Dad Joke Meme](https://oaidalleapiprodscus.blob.core.windows.net/private/org-DhRyH23zGXq7WXzs6TYih5dA/user-NObsI7AB3qsTX9V1oxlaeJUf/img-RcG3Nxg6SwLHMcYM8KzzrRNj.png?st=2024-11-15T17%3A03%3A30Z&se=2024-11-15T19%3A03%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-11-15T17%3A56%3A56Z&ske=2024-11-16T17%3A56%3A56Z&sks=b&skv=2024-08-04&sig=e69nl/%2BcArEDqR0mNH8Yhykab3sXvA%2BDkRoZmETvMjQ%3D)\n\nThe text reads: \"I decided to sell my Hoover... Well, it was just collecting dust.\" Enjoy!",
+      "refusal": null,
+      "id": "472a4777-3606-49a7-aa8a-63453004b307",
+      "createdAt": "2024-11-15T18:03:47.764Z"
     }
   ]
 }
