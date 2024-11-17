@@ -1,41 +1,4 @@
 {
   "messages": [
-    {
-      "role": "user",
-      "content": "generate a dad joke",
-      "id": "84c5fee6-0451-4a20-9f6d-45e2533ce671",
-      "createdAt": "2024-11-17T11:57:00.707Z"
-    },
-    {
-      "role": "assistant",
-      "content": null,
-      "tool_calls": [
-        {
-          "id": "call_2iNCA8c1zCgQ797dh6Z4ieLE",
-          "type": "function",
-          "function": {
-            "name": "dad_joke",
-            "arguments": "{}"
-          }
-        }
-      ],
-      "refusal": null,
-      "id": "5bc059bb-bdff-4598-8d43-4cab6750623f",
-      "createdAt": "2024-11-17T11:57:02.428Z"
-    },
-    {
-      "role": "tool",
-      "content": "How many apples grow on a tree? All of them!",
-      "tool_call_id": "call_2iNCA8c1zCgQ797dh6Z4ieLE",
-      "id": "b1e3a0f8-2b2e-4977-9a70-32cdd2a30868",
-      "createdAt": "2024-11-17T11:57:04.014Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Here's a dad joke for you: \n\nHow many apples grow on a tree? All of them!",
-      "refusal": null,
-      "id": "f082bca1-aa14-41b3-9f24-2e98f5672034",
-      "createdAt": "2024-11-17T11:57:04.748Z"
-    }
   ]
 }
