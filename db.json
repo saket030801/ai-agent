@@ -1,4 +1,67 @@
 {
   "messages": [
+    {
+      "role": "user",
+      "content": "give me random reddit post",
+      "id": "4624768f-a377-4ad5-a979-afbc7a322c3b",
+      "createdAt": "2024-11-17T12:05:08.168Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_BtjK2kJk0raCkwb4UhUiAtCW",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "bb162ab0-728b-48e8-904a-b66f68129b1a",
+      "createdAt": "2024-11-17T12:05:09.550Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"/r/aww is going OC-only\",\n    \"link\": \"https://www.reddit.com/r/aww/comments/171dxph/raww_is_going_oconly/\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 1799\n  },\n  {\n    \"title\": \"After promising my partner NO MORE CATS, I found this brown kitten at the shelter… We haven’t slept apart ever since 😅🤎\",\n    \"link\": \"https://www.reddit.com/gallery/1gsy6wx\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"KittiesandPlushies\",\n    \"upvotes\": 18804\n  },\n  {\n    \"title\": \"Feral baby demanded uppies- who could refuse?\",\n    \"link\": \"https://www.reddit.com/gallery/1gt3g3p\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Muerteds\",\n    \"upvotes\": 5041\n  },\n  {\n    \"title\": \"happy baby!\",\n    \"link\": \"https://i.redd.it/nxrcoy26te1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Huge_Watch6199\",\n    \"upvotes\": 1761\n  },\n  {\n    \"title\": \"look at his little white socks!! \",\n    \"link\": \"https://i.redd.it/ehwl6mml0d1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Isla_Grace_xoxo\",\n    \"upvotes\": 5368\n  },\n  {\n    \"title\": \"That jump into the harness was pure joy.\",\n    \"link\": \"https://v.redd.it/spyl6ceidd1e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"FluffyxFairy\",\n    \"upvotes\": 2882\n  },\n  {\n    \"title\": \"In the dog's mind, he did it exactly the same.\\n\",\n    \"link\": \"https://v.redd.it/wj8dfu9c0e1e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"xFizzyPink\",\n    \"upvotes\": 1602\n  },\n  {\n    \"title\": \"Yeti Moping cause Mommy is at Work\",\n    \"link\": \"https://i.redd.it/re3ruf21lc1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Skizot_Bizot\",\n    \"upvotes\": 1757\n  },\n  {\n    \"title\": \"The best old lady I could ever had asked for, my Bella girl.\",\n    \"link\": \"https://i.redd.it/l9ifj49anb1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"AncientDragoness23\",\n    \"upvotes\": 2998\n  },\n  {\n    \"title\": \"The sweetest boys in the world, Dewy &amp; Francis \",\n    \"link\": \"https://i.redd.it/sisx5x51i91e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Strict-Ad8501\",\n    \"upvotes\": 12135\n  },\n  {\n    \"title\": \"Oliver waking up from a nap\",\n    \"link\": \"https://i.imgur.com/Gdqc9AP.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"meowboy_oliver\",\n    \"upvotes\": 584\n  },\n  {\n    \"title\": \"My dad’s new rescue girl! \",\n    \"link\": \"https://i.redd.it/q87voyc66a1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"suckonmyjohnwayne\",\n    \"upvotes\": 6212\n  },\n  {\n    \"title\": \"My mom adopted this adult cat, and now she’s the boss of the couch. \",\n    \"link\": \"https://i.redd.it/gkc606cc2e1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Fun_City_3764\",\n    \"upvotes\": 482\n  },\n  {\n    \"title\": \"i just took my very good boy to the vet today! it's his first time!\",\n    \"link\": \"https://i.redd.it/ed0obfx9ha1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"bellebia\",\n    \"upvotes\": 3184\n  },\n  {\n    \"title\": \"Everyone say hi to my dearest Marisol! \",\n    \"link\": \"https://www.reddit.com/gallery/1gstm6v\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"PYE_2000\",\n    \"upvotes\": 1793\n  },\n  {\n    \"title\": \"Doggo loaf\",\n    \"link\": \"https://i.redd.it/85tncee4zb1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Tessuttaja\",\n    \"upvotes\": 973\n  },\n  {\n    \"title\": \"What did he smell??\",\n    \"link\": \"https://www.reddit.com/gallery/1gsrdyv\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"ferocioussophia\",\n    \"upvotes\": 2239\n  },\n  {\n    \"title\": \"Hi Reddit meet Indie, my new purrfect partner in adventure\",\n    \"link\": \"https://www.reddit.com/gallery/1gt41kb\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Limp_Orchid_7641\",\n    \"upvotes\": 327\n  },\n  {\n    \"title\": \"Two cows that live near me. I don’t know their names but I think they’re cuties.\",\n    \"link\": \"https://www.reddit.com/gallery/1gskoa1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"PrincessAngeli\",\n    \"upvotes\": 6491\n  },\n  {\n    \"title\": \"Holly, turned 3 recently! Wish her a happy birthday\",\n    \"link\": \"https://www.reddit.com/gallery/1gt284p\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"llbonkyboyll\",\n    \"upvotes\": 312\n  },\n  {\n    \"title\": \"Look at this little bean. She's so cute🥰\",\n    \"link\": \"https://i.redd.it/vbw2l6ic6e1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Alone-Progress-8476\",\n    \"upvotes\": 156\n  },\n  {\n    \"title\": \"Albert's airplane ears ready to take off!\",\n    \"link\": \"https://i.redd.it/lzhpq6sdlf1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Zaraki42\",\n    \"upvotes\": 67\n  },\n  {\n    \"title\": \"Pancake found a leaf and she's been sleeping with it for three days. \",\n    \"link\": \"https://i.redd.it/up65rjnrm61e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"LindsayIsBoring\",\n    \"upvotes\": 52412\n  },\n  {\n    \"title\": \"Just a fluffy friend showing off their adorable little blep\",\n    \"link\": \"https://i.redd.it/mgq2a2h8hd1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"VelvetVortex27\",\n    \"upvotes\": 185\n  },\n  {\n    \"title\": \"What a difference 2 weeks can make! Found her on a rural road, took her to vet, got meds and flea bath &amp; LOTS of love and snuggling\",\n    \"link\": \"https://i.redd.it/1v6crds0cb1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"DareWright\",\n    \"upvotes\": 649\n  },\n  {\n    \"title\": \"Sleeping peacefully\",\n    \"link\": \"https://i.redd.it/gwqn4g7jze1e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Rothra0115\",\n    \"upvotes\": 67\n  }\n]",
+      "tool_call_id": "call_BtjK2kJk0raCkwb4UhUiAtCW",
+      "id": "fc32a1a9-28f0-4ebd-a2b3-8ecfc6ccdf1a",
+      "createdAt": "2024-11-17T12:05:10.660Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a random Reddit post from the r/aww subreddit:\n\n**Title:** [After promising my partner NO MORE CATS, I found this brown kitten at the shelter… We haven’t slept apart ever since 😅🤎](https://www.reddit.com/gallery/1gsy6wx)  \n**Author:** KittiesandPlushies  \n**Upvotes:** 18,804  \n\nFeel free to check it out! Would you like to see more posts?",
+      "refusal": null,
+      "id": "81fece45-df34-4290-b777-b2fd6af7aff4",
+      "createdAt": "2024-11-17T12:05:12.391Z"
+    },
+    {
+      "role": "user",
+      "content": "give me random reddit post",
+      "id": "f6c26c69-a841-470c-8ddf-790776ac5854",
+      "createdAt": "2024-11-17T12:05:41.398Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s another random Reddit post from the r/aww subreddit:\n\n**Title:** [Pancake found a leaf and she's been sleeping with it for three days.](https://i.redd.it/up65rjnrm61e1.jpeg)  \n**Author:** LindsayIsBoring  \n**Upvotes:** 52,412  \n\nLet me know if you want to see more!",
+      "refusal": null,
+      "id": "32adf0c3-0729-4f9c-989f-1637d82d231e",
+      "createdAt": "2024-11-17T12:05:43.207Z"
+    },
+    {
+      "role": "user",
+      "content": "give me random reddit post",
+      "id": "a1b99ee0-c359-4809-ad78-6ad2e67e5e3c",
+      "createdAt": "2024-11-17T12:06:18.563Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s a random Reddit post from the r/aww subreddit:\n\n**Title:** [Feral baby demanded uppies- who could refuse?](https://www.reddit.com/gallery/1gt3g3p)  \n**Author:** Muerteds  \n**Upvotes:** 5,041  \n\nIf you'd like to see more posts, just let me know!",
+      "refusal": null,
+      "id": "d47260bf-2a97-42d5-be0f-8ca94bbcca48",
+      "createdAt": "2024-11-17T12:06:20.796Z"
+    }
   ]
 }
