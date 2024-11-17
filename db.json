@@ -2,77 +2,40 @@
   "messages": [
     {
       "role": "user",
-      "content": "give me a random reddit post",
-      "id": "93c9cb56-bbae-48ae-828a-e38a0180de8a",
-      "createdAt": "2024-11-16T06:20:37.340Z"
+      "content": "generate a dad joke",
+      "id": "84c5fee6-0451-4a20-9f6d-45e2533ce671",
+      "createdAt": "2024-11-17T11:57:00.707Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_eWFzqyrnBroTmtDTwVXzkGpl",
+          "id": "call_2iNCA8c1zCgQ797dh6Z4ieLE",
           "type": "function",
           "function": {
-            "name": "reddit",
+            "name": "dad_joke",
             "arguments": "{}"
           }
         }
       ],
       "refusal": null,
-      "id": "0f12b197-0fdf-460d-9f27-f388344d89fb",
-      "createdAt": "2024-11-16T06:20:40.317Z"
+      "id": "5bc059bb-bdff-4598-8d43-4cab6750623f",
+      "createdAt": "2024-11-17T11:57:02.428Z"
     },
     {
       "role": "tool",
-      "content": "[\n  {\n    \"title\": \"/r/aww is going OC-only\",\n    \"link\": \"https://www.reddit.com/r/aww/comments/171dxph/raww_is_going_oconly/\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 1793\n  },\n  {\n    \"title\": \"Pancake found a leaf and she's been sleeping with it for three days. \",\n    \"link\": \"https://i.redd.it/up65rjnrm61e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"LindsayIsBoring\",\n    \"upvotes\": 3430\n  },\n  {\n    \"title\": \"my cat \\\"kiddnapped\\\" a stray cat and brought her home\",\n    \"link\": \"https://i.redd.it/fuesmmfeq51e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"bellacutx\",\n    \"upvotes\": 2129\n  },\n  {\n    \"title\": \"The sweetest brothers, Steve and Gizmo 💙\",\n    \"link\": \"https://i.redd.it/0w47ck4ly41e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"inkpot80\",\n    \"upvotes\": 3153\n  },\n  {\n    \"title\": \"kiss kiss\",\n    \"link\": \"https://v.redd.it/hb2tke75f31e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"oriihbabe\",\n    \"upvotes\": 5696\n  },\n  {\n    \"title\": \"When times are tough these kittens always cheer me up. Here’s Bonnie, Reilly and Jonesy. They’re 6 months old now. \",\n    \"link\": \"https://www.reddit.com/gallery/1grvmwj\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"mac_is_crack\",\n    \"upvotes\": 13595\n  },\n  {\n    \"title\": \"Meet Theodore, our one-eyed foster puppy! 🤍\",\n    \"link\": \"https://i.redd.it/amzckzj1j41e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"alrightsydney\",\n    \"upvotes\": 2159\n  },\n  {\n    \"title\": \"just brought this handsome boy home. his name is Rusty but i think Mr. Socks will be what we actually call him\",\n    \"link\": \"https://i.redd.it/tc9hhmqez31e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"loviinggxze\",\n    \"upvotes\": 3002\n  },\n  {\n    \"title\": \"We rescued this tiny puppy from a street and I can’t get over how cute she is (and that smile omg ❤️)\",\n    \"link\": \"https://v.redd.it/2llokkju371e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"DesiKatie\",\n    \"upvotes\": 330\n  },\n  {\n    \"title\": \"Théoden from 2 to 11 weeks old\",\n    \"link\": \"https://www.reddit.com/gallery/1gru11m\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Dry-Consequence8422\",\n    \"upvotes\": 10417\n  },\n  {\n    \"title\": \"Gym tiger\",\n    \"link\": \"https://v.redd.it/r0dflajuk61e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"caibou_dev\",\n    \"upvotes\": 372\n  },\n  {\n    \"title\": \"Smol baby\",\n    \"link\": \"https://i.redd.it/cuf4oh5hk21e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Historical_Gas_8955\",\n    \"upvotes\": 3341\n  },\n  {\n    \"title\": \"From the shelter yesterday to making herself home on the couch! Meet Coco! \",\n    \"link\": \"https://i.redd.it/2kfc0xai541e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"goldenflash8530\",\n    \"upvotes\": 1186\n  },\n  {\n    \"title\": \"Mama dog can have a break\",\n    \"link\": \"https://v.redd.it/b97zmjc8861e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"SparklexLuxe\",\n    \"upvotes\": 299\n  },\n  {\n    \"title\": \"It’s Géode! The big boy is doing well. We can pet him and brush him now. He seems to like this bed but it’s hard to say with him; he has a great poker face 😄\",\n    \"link\": \"https://v.redd.it/ydaap0l9i31e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"sonia72quebec\",\n    \"upvotes\": 1413\n  },\n  {\n    \"title\": \"My babygirl &amp; me!\",\n    \"link\": \"https://www.reddit.com/gallery/1gsbkik\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Aggravating_Math_438\",\n    \"upvotes\": 300\n  },\n  {\n    \"title\": \"I'm currently going through a breakup and I'm not feeling so great, so show me the best picture you have of your pets 😊 I'll start!! Meet my kitty! She's 3 years old\",\n    \"link\": \"https://i.redd.it/iemjadrt061e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"katywars\",\n    \"upvotes\": 224\n  },\n  {\n    \"title\": \"My love Max 🥰\",\n    \"link\": \"https://i.redd.it/hf1h9kbhr31e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"ivyblake9\",\n    \"upvotes\": 851\n  },\n  {\n    \"title\": \"My grandma got a new dog\",\n    \"link\": \"https://i.redd.it/6hvw7gbee41e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"BinxIsh\",\n    \"upvotes\": 565\n  },\n  {\n    \"title\": \"adorableness level check = over 9000!\",\n    \"link\": \"https://i.redd.it/cepw8fm7331e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"TheElegantElectra\",\n    \"upvotes\": 1235\n  },\n  {\n    \"title\": \"Meet my little wonky! Whiskers, fluff and all things white and wonderful. \",\n    \"link\": \"https://i.redd.it/td29ab9a631e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Adventurevirus\",\n    \"upvotes\": 1069\n  },\n  {\n    \"title\": \"Girlfriend's Cute Maine Coon Kitty, Stormy\",\n    \"link\": \"https://www.reddit.com/gallery/1gs2wib\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Agreeable_Umpire_385\",\n    \"upvotes\": 588\n  },\n  {\n    \"title\": \"she is protecting her kitten with her life\",\n    \"link\": \"https://i.redd.it/67uede91m51e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"bellawviv\",\n    \"upvotes\": 207\n  },\n  {\n    \"title\": \"Cosmo thinks he’s a kitten. Biscuit time \",\n    \"link\": \"https://v.redd.it/r39jpnl6n21e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Silly_Egg3170\",\n    \"upvotes\": 1276\n  },\n  {\n    \"title\": \"How good is a little throw back to the puppy stage. Reggie was 12 week and 2 day old I mean come on!! look at those ears \",\n    \"link\": \"https://v.redd.it/mij1pdyk751e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"LostBig3564\",\n    \"upvotes\": 241\n  },\n  {\n    \"title\": \"Every morning, Lottie takes the puppies outside to begin their day with some fun playtime !\",\n    \"link\": \"https://v.redd.it/nfav37y3u31e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"ganiajanya\",\n    \"upvotes\": 518\n  }\n]",
-      "tool_call_id": "call_eWFzqyrnBroTmtDTwVXzkGpl",
-      "id": "dd5ad570-6108-45d8-aedf-5708224cf5c1",
-      "createdAt": "2024-11-16T06:20:41.480Z"
+      "content": "How many apples grow on a tree? All of them!",
+      "tool_call_id": "call_2iNCA8c1zCgQ797dh6Z4ieLE",
+      "id": "b1e3a0f8-2b2e-4977-9a70-32cdd2a30868",
+      "createdAt": "2024-11-17T11:57:04.014Z"
     },
     {
       "role": "assistant",
-      "content": "Here's a random Reddit post from the subreddit r/aww:\n\n**Title:** Pancake found a leaf and she's been sleeping with it for three days.  \n**Author:** LindsayIsBoring  \n**Upvotes:** 3430  \n**Link:** [View Post](https://i.redd.it/up65rjnrm61e1.jpeg)\n\nIf you'd like to see more posts or a different topic, let me know!",
+      "content": "Here's a dad joke for you: \n\nHow many apples grow on a tree? All of them!",
       "refusal": null,
-      "id": "73523332-3f21-45c1-a1cd-558b75951cd1",
-      "createdAt": "2024-11-16T06:20:43.100Z"
-    },
-    {
-      "role": "user",
-      "content": "give me a random reddit post",
-      "id": "3741247c-669c-4995-af8f-15aaf074314f",
-      "createdAt": "2024-11-16T06:31:49.354Z"
-    },
-    {
-      "role": "assistant",
-      "content": null,
-      "tool_calls": [
-        {
-          "id": "call_P3mQy6tIwA74kpN5fwXYVXJe",
-          "type": "function",
-          "function": {
-            "name": "reddit",
-            "arguments": "{}"
-          }
-        }
-      ],
-      "refusal": null,
-      "id": "8f4393be-01af-4748-b94e-f5dabe3cf744",
-      "createdAt": "2024-11-16T06:31:50.581Z"
-    },
-    {
-      "role": "tool",
-      "content": "[\n  {\n    \"title\": \"/r/aww is going OC-only\",\n    \"link\": \"https://www.reddit.com/r/aww/comments/171dxph/raww_is_going_oconly/\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 1792\n  },\n  {\n    \"title\": \"Pancake found a leaf and she's been sleeping with it for three days. \",\n    \"link\": \"https://i.redd.it/up65rjnrm61e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"LindsayIsBoring\",\n    \"upvotes\": 4168\n  },\n  {\n    \"title\": \"my cat \\\"kiddnapped\\\" a stray cat and brought her home\",\n    \"link\": \"https://i.redd.it/fuesmmfeq51e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"bellacutx\",\n    \"upvotes\": 2243\n  },\n  {\n    \"title\": \"The sweetest brothers, Steve and Gizmo 💙\",\n    \"link\": \"https://i.redd.it/0w47ck4ly41e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"inkpot80\",\n    \"upvotes\": 3189\n  },\n  {\n    \"title\": \"kiss kiss\",\n    \"link\": \"https://v.redd.it/hb2tke75f31e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"oriihbabe\",\n    \"upvotes\": 5745\n  },\n  {\n    \"title\": \"When times are tough these kittens always cheer me up. Here’s Bonnie, Reilly and Jonesy. They’re 6 months old now. \",\n    \"link\": \"https://www.reddit.com/gallery/1grvmwj\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"mac_is_crack\",\n    \"upvotes\": 13638\n  },\n  {\n    \"title\": \"Meet Theodore, our one-eyed foster puppy! 🤍\",\n    \"link\": \"https://i.redd.it/amzckzj1j41e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"alrightsydney\",\n    \"upvotes\": 2205\n  },\n  {\n    \"title\": \"just brought this handsome boy home. his name is Rusty but i think Mr. Socks will be what we actually call him\",\n    \"link\": \"https://i.redd.it/tc9hhmqez31e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"loviinggxze\",\n    \"upvotes\": 3013\n  },\n  {\n    \"title\": \"We rescued this tiny puppy from a street and I can’t get over how cute she is (and that smile omg ❤️)\",\n    \"link\": \"https://v.redd.it/2llokkju371e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"DesiKatie\",\n    \"upvotes\": 376\n  },\n  {\n    \"title\": \"Gym tiger\",\n    \"link\": \"https://v.redd.it/r0dflajuk61e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"caibou_dev\",\n    \"upvotes\": 428\n  },\n  {\n    \"title\": \"Théoden from 2 to 11 weeks old\",\n    \"link\": \"https://www.reddit.com/gallery/1gru11m\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Dry-Consequence8422\",\n    \"upvotes\": 10454\n  },\n  {\n    \"title\": \"Smol baby\",\n    \"link\": \"https://i.redd.it/cuf4oh5hk21e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Historical_Gas_8955\",\n    \"upvotes\": 3356\n  },\n  {\n    \"title\": \"From the shelter yesterday to making herself home on the couch! Meet Coco! \",\n    \"link\": \"https://i.redd.it/2kfc0xai541e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"goldenflash8530\",\n    \"upvotes\": 1196\n  },\n  {\n    \"title\": \"Mama dog can have a break\",\n    \"link\": \"https://v.redd.it/b97zmjc8861e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"SparklexLuxe\",\n    \"upvotes\": 319\n  },\n  {\n    \"title\": \"It’s Géode! The big boy is doing well. We can pet him and brush him now. He seems to like this bed but it’s hard to say with him; he has a great poker face 😄\",\n    \"link\": \"https://v.redd.it/ydaap0l9i31e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"sonia72quebec\",\n    \"upvotes\": 1413\n  },\n  {\n    \"title\": \"My babygirl &amp; me!\",\n    \"link\": \"https://www.reddit.com/gallery/1gsbkik\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Aggravating_Math_438\",\n    \"upvotes\": 306\n  },\n  {\n    \"title\": \"I'm currently going through a breakup and I'm not feeling so great, so show me the best picture you have of your pets 😊 I'll start!! Meet my kitty! She's 3 years old\",\n    \"link\": \"https://i.redd.it/iemjadrt061e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"katywars\",\n    \"upvotes\": 244\n  },\n  {\n    \"title\": \"My love Max 🥰\",\n    \"link\": \"https://i.redd.it/hf1h9kbhr31e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"ivyblake9\",\n    \"upvotes\": 856\n  },\n  {\n    \"title\": \"My grandma got a new dog\",\n    \"link\": \"https://i.redd.it/6hvw7gbee41e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"BinxIsh\",\n    \"upvotes\": 560\n  },\n  {\n    \"title\": \"adorableness level check = over 9000!\",\n    \"link\": \"https://i.redd.it/cepw8fm7331e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"TheElegantElectra\",\n    \"upvotes\": 1233\n  },\n  {\n    \"title\": \"Meet my little wonky! Whiskers, fluff and all things white and wonderful. \",\n    \"link\": \"https://i.redd.it/td29ab9a631e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Adventurevirus\",\n    \"upvotes\": 1067\n  },\n  {\n    \"title\": \"she is protecting her kitten with her life\",\n    \"link\": \"https://i.redd.it/67uede91m51e1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"bellawviv\",\n    \"upvotes\": 224\n  },\n  {\n    \"title\": \"Girlfriend's Cute Maine Coon Kitty, Stormy\",\n    \"link\": \"https://www.reddit.com/gallery/1gs2wib\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Agreeable_Umpire_385\",\n    \"upvotes\": 589\n  },\n  {\n    \"title\": \"Cosmo thinks he’s a kitten. Biscuit time \",\n    \"link\": \"https://v.redd.it/r39jpnl6n21e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Silly_Egg3170\",\n    \"upvotes\": 1272\n  },\n  {\n    \"title\": \"How good is a little throw back to the puppy stage. Reggie was 12 week and 2 day old I mean come on!! look at those ears \",\n    \"link\": \"https://v.redd.it/mij1pdyk751e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"LostBig3564\",\n    \"upvotes\": 244\n  },\n  {\n    \"title\": \"Every morning, Lottie takes the puppies outside to begin their day with some fun playtime !\",\n    \"link\": \"https://v.redd.it/nfav37y3u31e1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"ganiajanya\",\n    \"upvotes\": 516\n  }\n]",
-      "tool_call_id": "call_P3mQy6tIwA74kpN5fwXYVXJe",
-      "id": "e2786216-a660-4a93-ac7d-8b4bb46729b5",
-      "createdAt": "2024-11-16T06:31:51.748Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Here's another random Reddit post from the subreddit r/aww:\n\n**Title:** Meet Theodore, our one-eyed foster puppy! 🤍  \n**Author:** alrightsydney  \n**Upvotes:** 2205  \n**Link:** [View Post](https://i.redd.it/amzckzj1j41e1.jpeg)\n\nIf you want more posts or a different topic, just let me know!",
-      "refusal": null,
-      "id": "14e9e388-f850-4966-b4e2-723ba7fe99b9",
-      "createdAt": "2024-11-16T06:31:53.670Z"
+      "id": "f082bca1-aa14-41b3-9f24-2e98f5672034",
+      "createdAt": "2024-11-17T11:57:04.748Z"
     }
   ]
 }
