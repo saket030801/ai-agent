@@ -18,5 +18,16 @@ A Node.js-powered AI agent that can perform fun and practical tasks directly fro
 ### Steps
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/saket030801/ai-agent.git
+   cd ai-agent
+   npm install   ```
+2. **Create a .env file in the root directory with the following content:**
+   ```bash
+   OPENAI_API_KEY = "<Your API Key>"
+   ```
+3. **Run the Application**
+   ```bash
+   node index.js "<Your Propmpt to the agent>"
+   ```
+
+
