@@ -23,10 +23,10 @@ export const runAgent = async ({userMessage,tools}) => {
         })
 
         await addMessages([response])
+        logMessage(response)
 
         if(response.content){
             loader.stop()
-            console.log(response)
             return getMessages();
         }
 
