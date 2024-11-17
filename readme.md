@@ -35,10 +35,10 @@ A Node.js-powered AI agent that can perform fun and practical tasks directly fro
 
 ## Note
 
-1. Make sure that you have allowed the models in the OpenAI API settings [Allow Models](https://platform.openai.com/settings/proj_CnvtUnzWKTNdvPSUKuZbZvUd/limits)
+1. Make sure that you have allowed the models(gpt-4o-mini, dall-e-3) in the OpenAI API settings [Allow Models](https://platform.openai.com/settings/proj_CnvtUnzWKTNdvPSUKuZbZvUd/limits)
 
-2. You can change the subreddit name in reddit.js file in the tools directory.
+2. You can change the subreddit name in the reddit.js file in the tools directory.
 
-3. Also if let's say there is error in the response, try to empty the message array in db.json.
+3. If there is an error in the response, try emptying the message array in db.json.
 
 
