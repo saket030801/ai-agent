@@ -27,7 +27,17 @@ A Node.js-powered AI agent that can perform fun and practical tasks directly fro
    ```
 3. **Run the Application**
    ```bash
-   node index.js "<Your Propmpt to the agent>"
+   node index.js "<Your Prompt to the agent>"
    ```
+
+---
+
+## Note
+
+1. Make sure that you have allowed the models in the OpenAI API settings [Allow Models](https://platform.openai.com/settings/proj_CnvtUnzWKTNdvPSUKuZbZvUd/limits)
+
+2. You can change the subreddit name in reddit.js file in the tools directory.
+
+3. Also if let's say there is error in the response, try to empty the message array in db.json.
 
 
