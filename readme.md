@@ -12,7 +12,7 @@ A Node.js-powered AI agent that can perform fun and practical tasks directly fro
 ## 🛠️ Installation
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (Version 14 or higher)
+- [Node.js](https://nodejs.org/) (Version 18 or higher)
 - An [OpenAI API key](https://platform.openai.com/)
 
 ### Steps
