@@ -4,7 +4,7 @@ A Node.js-powered AI agent that can perform fun and practical tasks directly fro
 
 ## Features
 - **Image Generator**: Create visuals using DALL-E 3.
-- **Random Reddit Post**: Fetch a post from any subreddit.
+- **Random Reddit Post**: Fetch a post from any subreddit. (In progress)
 - **Dad Joke Generator**: Get a random dad joke for a quick laugh.
 
 ---
